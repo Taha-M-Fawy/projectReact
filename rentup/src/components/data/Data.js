@@ -1,4 +1,4 @@
-export const navegiator = [
+export const nav = [
   {
     text: "home",
     path: "/",

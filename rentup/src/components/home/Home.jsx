@@ -1,13 +1,20 @@
-
-import Hero from './hero/Hero'
-import Fearured from "./fearured/Featrured"
-import Recent from './recent/Recent'
+import Awards from "./awards/Awards"
+import Featured from "./featured/Featured"
+import Hero from "./hero/Hero"
+import Location from "./location/Location"
+import Recent from "./recent/Recent"
+import Team from "./team/Team"
+import Price from "./price/Price"
 const Home = () => {
   return (
     <>
-    <Hero/>
-    <Fearured/>
-    <Recent/>
+      <Hero />
+      <Featured />
+      <Recent />
+      <Awards />
+      <Location />
+      <Team />
+      <Price/>
     </>
   )
 }

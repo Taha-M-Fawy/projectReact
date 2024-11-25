@@ -2,7 +2,8 @@ import React from "react"
 import Header from "../common/header/Header"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Home from "../home/Home"
-
+import Footer from '../common/footer/Footer'
+import About from "../About/About"
 const Pages = () => {
   return (
     <>
@@ -10,7 +11,9 @@ const Pages = () => {
         <Header />
         <Switch>
           <Route exact path='/' component={Home} />
+          <Route exact path='/about' component={About} />
         </Switch>
+        <Footer/>
       </Router>
     </>
   )

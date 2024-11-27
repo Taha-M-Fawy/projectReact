@@ -1,5 +1,6 @@
 .about{
     margin-bottom: 80px;
+    
 }
 .about .heading{
     text-align: left;
@@ -11,7 +12,34 @@
     padding-right: 30px;
     margin-bottom: 20px;
     line-height: 30px;    
+  
 }
+.about .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .about .left {
+    width: 50%;
+  }
+  
+  .about .left p {
+    padding-right: 20px;
+  }
+  
+  .about .right {
+    width: 45%;
+  }
+  
+  .about .right img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .btn2:hover {
+    background-color: #387f56;
+  }
 @media screen and (max-widtt:768px){
     .about.container{
         flex-direction: column;
